@@ -1,12 +1,12 @@
 import pytest
-from httpx import AsyncClient
+from httpx import AsyncClient, ASGITransport
 from unittest.mock import AsyncMock, patch
 from app.main import app
 
 @pytest.mark.asyncio
 async def test_get_status():
     """Test the /status endpoint returns valid structure."""
-    async with AsyncClient(app=app, base_url="http://test") as ac:
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
         # Mocking both the machine step and the DB history fetch
         with patch('app.api.endpoints.machine.step') as mock_step, \
              patch('app.api.endpoints.get_history_collection') as mock_db:
@@ -36,7 +36,7 @@ async def test_get_status():
 @pytest.mark.asyncio
 async def test_manual_override_pump():
     """Test that manual override updates machine state."""
-    async with AsyncClient(app=app, base_url="http://test") as ac:
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
         from app.core.machine import machine
         
         # Override to True

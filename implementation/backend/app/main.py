@@ -8,7 +8,21 @@ from app.core.database import connect_to_mongo, close_mongo_connection
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-app = FastAPI(title="Greenhouse Controller Machine", version="2.0.0")
+from contextlib import asynccontextmanager
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup logic
+    await connect_to_mongo()
+    yield
+    # Shutdown logic
+    await close_mongo_connection()
+
+app = FastAPI(
+    title="Greenhouse Controller Machine", 
+    version="2.0.0",
+    lifespan=lifespan
+)
 
 # Enable CORS
 app.add_middleware(
@@ -17,15 +31,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Lifecycle Events
-@app.on_event("startup")
-async def startup_db_client():
-    await connect_to_mongo()
-
-@app.on_event("shutdown")
-async def shutdown_db_client():
-    await close_mongo_connection()
 
 # Include API Routes
 app.include_router(api_router)
