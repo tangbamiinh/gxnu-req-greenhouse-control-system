@@ -1,0 +1,1482 @@
+{
+  "nodes": [
+    {
+      "position": {
+        "x": 394,
+        "y": 294
+      },
+      "size": {
+        "width": 200,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "Machine"
+        },
+        "label": {
+          "refX": 118,
+          "refY": 30,
+          "textWrap": {
+            "width": 154,
+            "ellipsis": false
+          },
+          "text": "Greenhouse Controller Machine"
+        }
+      },
+      "visible": true,
+      "shape": "machine",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "right": {
+            "position": "right",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "bottom": {
+            "position": "bottom",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "left": {
+            "position": "left",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          }
+        },
+        "items": [
+          {
+            "id": "port-top",
+            "group": "top",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-right",
+            "group": "right",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-bottom",
+            "group": "bottom",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-left",
+            "group": "left",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          }
+        ]
+      },
+      "id": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+      "data": {
+        "id": "",
+        "type": "machine",
+        "name": "Greenhouse Controller Machine",
+        "description": "sadasd"
+      },
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": 789,
+        "y": 175
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "Design"
+        },
+        "label": {
+          "text": "Water Pump"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "right": {
+            "position": "right",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "bottom": {
+            "position": "bottom",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "left": {
+            "position": "left",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          }
+        },
+        "items": [
+          {
+            "id": "port-top",
+            "group": "top",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-right",
+            "group": "right",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-bottom",
+            "group": "bottom",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-left",
+            "group": "left",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          }
+        ]
+      },
+      "id": "b15a5bdb-27a4-4bc5-bb59-1f8c554af1d6",
+      "data": {
+        "id": "",
+        "type": "design",
+        "name": "Water Pump"
+      },
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": 777,
+        "y": 441.99999999999983
+      },
+      "size": {
+        "width": 144,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "Design"
+        },
+        "label": {
+          "refX": 81,
+          "refY": 30,
+          "textWrap": {
+            "width": 116,
+            "ellipsis": false
+          },
+          "text": "Ventilation Fan"
+        }
+      },
+      "visible": true,
+      "shape": "design",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "right": {
+            "position": "right",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "bottom": {
+            "position": "bottom",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "left": {
+            "position": "left",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          }
+        },
+        "items": [
+          {
+            "id": "port-top",
+            "group": "top",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-right",
+            "group": "right",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-bottom",
+            "group": "bottom",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-left",
+            "group": "left",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          }
+        ]
+      },
+      "id": "31681a3f-24ca-4488-b652-5fa55184a008",
+      "data": {
+        "id": "",
+        "type": "design",
+        "name": "Ventilation Fan"
+      },
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": -47,
+        "y": 188.99999999999983
+      },
+      "size": {
+        "width": 171,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "GivenDomain..."
+        },
+        "label": {
+          "refX": 85.5,
+          "refY": 30,
+          "textWrap": {
+            "width": 161,
+            "ellipsis": false
+          },
+          "text": "Soil Moisture Sensor"
+        },
+        "badgeRect": {
+          "refX": 151,
+          "refY": 40
+        },
+        "badgeText": {
+          "refX": 161,
+          "refY": 50,
+          "text": "C"
+        }
+      },
+      "visible": true,
+      "shape": "given-domain-variant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "right": {
+            "position": "right",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "bottom": {
+            "position": "bottom",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "left": {
+            "position": "left",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          }
+        },
+        "items": [
+          {
+            "id": "port-top",
+            "group": "top",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-right",
+            "group": "right",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-bottom",
+            "group": "bottom",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-left",
+            "group": "left",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          }
+        ]
+      },
+      "id": "8f84ba6c-7fc1-468e-92bd-81f3b818d0d2",
+      "data": {
+        "id": "",
+        "type": "given-domain-variant",
+        "name": "Soil Moisture Sensor",
+        "badgeLabel": "C"
+      },
+      "zIndex": 4
+    },
+    {
+      "position": {
+        "x": -49,
+        "y": 441.99999999999983
+      },
+      "size": {
+        "width": 170,
+        "height": 60
+      },
+      "attrs": {
+        "text": {
+          "text": "GivenDomain..."
+        },
+        "label": {
+          "refX": 85,
+          "refY": 30,
+          "textWrap": {
+            "width": 160,
+            "ellipsis": false
+          },
+          "text": "Temperature Sensor"
+        },
+        "badgeRect": {
+          "refX": 150,
+          "refY": 40
+        },
+        "badgeText": {
+          "refX": 160,
+          "refY": 50,
+          "text": "C"
+        }
+      },
+      "visible": true,
+      "shape": "given-domain-variant",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "right": {
+            "position": "right",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "bottom": {
+            "position": "bottom",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "left": {
+            "position": "left",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          }
+        },
+        "items": [
+          {
+            "id": "port-top",
+            "group": "top",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-right",
+            "group": "right",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-bottom",
+            "group": "bottom",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-left",
+            "group": "left",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          }
+        ]
+      },
+      "id": "b0da208d-4c9b-4094-ad1c-fde1d2a507b6",
+      "data": {
+        "id": "",
+        "type": "given-domain-variant",
+        "name": "Temperature Sensor",
+        "badgeLabel": "C"
+      },
+      "zIndex": 5
+    },
+    {
+      "position": {
+        "x": 377,
+        "y": 534.0000000000001
+      },
+      "size": {
+        "width": 167,
+        "height": 90
+      },
+      "attrs": {
+        "text": {
+          "text": "Requirement"
+        },
+        "label": {
+          "textWrap": {
+            "width": 157,
+            "height": 80,
+            "ellipsis": false
+          },
+          "text": "Temperature Regulation",
+          "refX": 83.5,
+          "refY": 45
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "right": {
+            "position": "right",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "bottom": {
+            "position": "bottom",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "left": {
+            "position": "left",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          }
+        },
+        "items": [
+          {
+            "id": "port-top",
+            "group": "top",
+            "attrs": {
+              "portBody": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "id": "port-right",
+            "group": "right",
+            "attrs": {
+              "portBody": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "id": "port-bottom",
+            "group": "bottom",
+            "attrs": {
+              "portBody": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "id": "port-left",
+            "group": "left",
+            "attrs": {
+              "portBody": {
+                "opacity": 1
+              }
+            }
+          }
+        ]
+      },
+      "id": "62acd4a0-0a25-4ab3-bc4b-084ee69083f7",
+      "data": {
+        "id": "",
+        "type": "requirement",
+        "name": "Temperature Regulation",
+        "description": "Ensure the temperature does not exceed 30°C."
+      },
+      "zIndex": 6
+    },
+    {
+      "position": {
+        "x": 374,
+        "y": 40
+      },
+      "size": {
+        "width": 192,
+        "height": 93
+      },
+      "attrs": {
+        "text": {
+          "text": "Requirement"
+        },
+        "label": {
+          "textWrap": {
+            "width": 182,
+            "height": 83,
+            "ellipsis": false
+          },
+          "text": "Moisture Maintenance",
+          "refX": 96,
+          "refY": 46.5
+        }
+      },
+      "visible": true,
+      "shape": "requirement",
+      "ports": {
+        "groups": {
+          "top": {
+            "position": "top",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "right": {
+            "position": "right",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "bottom": {
+            "position": "bottom",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          },
+          "left": {
+            "position": "left",
+            "markup": [
+              {
+                "tagName": "circle",
+                "selector": "portBody"
+              }
+            ],
+            "attrs": {
+              "portBody": {
+                "r": 5,
+                "magnet": true,
+                "stroke": "#1890ff",
+                "strokeWidth": 1.5,
+                "fill": "#fff",
+                "opacity": 0
+              }
+            },
+            "zIndex": 10
+          }
+        },
+        "items": [
+          {
+            "id": "port-top",
+            "group": "top",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-right",
+            "group": "right",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-bottom",
+            "group": "bottom",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          },
+          {
+            "id": "port-left",
+            "group": "left",
+            "attrs": {
+              "portBody": {
+                "opacity": 0
+              }
+            }
+          }
+        ]
+      },
+      "id": "116cce33-2c9b-4c7a-8dd8-b9c202cd90ab",
+      "data": {
+        "id": "",
+        "type": "requirement",
+        "name": "Moisture Maintenance",
+        "description": "Description: Ensure the soil moisture remains above 40%."
+      },
+      "zIndex": 7
+    }
+  ],
+  "edges": [
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "17fa4d3a-7eb2-4131-870c-06a38b3e6c29",
+      "zIndex": 0,
+      "source": {
+        "cell": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+        "port": "port-bottom"
+      },
+      "target": {
+        "cell": "31681a3f-24ca-4488-b652-5fa55184a008",
+        "port": "port-left"
+      },
+      "data": {
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+            "nodeName": "Greenhouse Controller Machine",
+            "phenomena": [
+              {
+                "id": "e5d85b6e-8801-49f4-9ef1-11d00fbb6246",
+                "text": "turnOnFan",
+                "order": 1,
+                "createdAt": "2026-01-04T04:00:25.912Z",
+                "updatedAt": "2026-01-04T04:00:26.602Z"
+              },
+              {
+                "id": "902d7399-49a5-48c5-a1bb-3bb384f0989c",
+                "text": "turnOffFan",
+                "order": 2,
+                "createdAt": "2026-01-04T04:00:27.282Z",
+                "updatedAt": "2026-01-04T04:00:29.638Z"
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "31681a3f-24ca-4488-b652-5fa55184a008",
+            "nodeName": "Ventilation Fan",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "Greenhouse Controller Machine！{turnOnFan, turnOffFan}",
+        "lineStyle": {
+          "lineColor": "#000",
+          "lineType": "solid"
+        }
+      },
+      "labels": [
+        {
+          "attrs": {
+            "label": {
+              "text": "Greenhouse Controller Machine！{turnOnFan, turnOffFan}",
+              "fontSize": 14,
+              "fill": "#000000",
+              "fontFamily": "Arial, sans-serif"
+            }
+          },
+          "position": {
+            "distance": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "57f74bb9-c6bb-4ceb-9b36-233ea076a9bd",
+      "zIndex": 0,
+      "source": {
+        "cell": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+        "port": "port-right"
+      },
+      "target": {
+        "cell": "b15a5bdb-27a4-4bc5-bb59-1f8c554af1d6",
+        "port": "port-left"
+      },
+      "data": {
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+            "nodeName": "Greenhouse Controller Machine",
+            "phenomena": [
+              {
+                "id": "b6689601-a733-4766-8e95-6ea1ff541977",
+                "text": "turnOnPump",
+                "order": 1,
+                "createdAt": "2026-01-04T04:00:13.866Z",
+                "updatedAt": "2026-01-04T04:00:14.588Z"
+              },
+              {
+                "id": "08862211-573e-48e6-9f9d-321aa82ffdbb",
+                "text": "turnOffPump",
+                "order": 2,
+                "createdAt": "2026-01-04T04:00:15.791Z",
+                "updatedAt": "2026-01-04T04:00:17.939Z"
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "b15a5bdb-27a4-4bc5-bb59-1f8c554af1d6",
+            "nodeName": "Water Pump",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "Greenhouse Controller Machine！{turnOnPump, turnOffPump}",
+        "lineStyle": {
+          "lineColor": "#000",
+          "lineType": "solid"
+        }
+      },
+      "labels": [
+        {
+          "attrs": {
+            "label": {
+              "text": "Greenhouse Controller Machine！{turnOnPump, turnOffPump}",
+              "fontSize": 14,
+              "fill": "#000000",
+              "fontFamily": "Arial, sans-serif"
+            }
+          },
+          "position": {
+            "distance": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "6ec926cb-0bdb-4795-ae95-e6448d0c48c2",
+      "zIndex": 0,
+      "source": {
+        "cell": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+        "port": "port-top"
+      },
+      "target": {
+        "cell": "8f84ba6c-7fc1-468e-92bd-81f3b818d0d2",
+        "port": "port-right"
+      },
+      "data": {
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+            "nodeName": "Greenhouse Controller Machine",
+            "phenomena": [
+              {
+                "id": "2de17ab7-15ac-48f2-b719-a2185ca23ed5",
+                "text": "readingMoisture",
+                "order": 1,
+                "createdAt": "2026-01-04T03:59:57.929Z",
+                "updatedAt": "2026-01-04T03:59:58.656Z"
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "8f84ba6c-7fc1-468e-92bd-81f3b818d0d2",
+            "nodeName": "Soil Moisture Sensor",
+            "phenomena": []
+          },
+          "displayMode": "detailed",
+          "substituteCode": "a"
+        },
+        "label": "Greenhouse Controller Machine！{readingMoisture}",
+        "lineStyle": {
+          "lineColor": "#000",
+          "lineType": "solid"
+        }
+      },
+      "labels": [
+        {
+          "attrs": {
+            "label": {
+              "text": "Greenhouse Controller Machine！{readingMoisture}",
+              "fontSize": 14,
+              "fill": "#000000",
+              "fontFamily": "Arial, sans-serif"
+            }
+          },
+          "position": {
+            "distance": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "targetMarker": null,
+          "strokeDasharray": ""
+        }
+      },
+      "id": "7a87f748-2e8d-44e9-b944-e7a41c579e6f",
+      "zIndex": 0,
+      "source": {
+        "cell": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+        "port": "port-left"
+      },
+      "target": {
+        "cell": "b0da208d-4c9b-4094-ad1c-fde1d2a507b6",
+        "port": "port-right"
+      },
+      "data": {
+        "phenomenaConfig": {
+          "sourceNode": {
+            "nodeId": "45d844f6-4a6c-454c-b53f-6bcd475a0877",
+            "nodeName": "Greenhouse Controller Machine",
+            "phenomena": [
+              {
+                "id": "18e6bfc7-bc08-430d-94ad-31ac57677bc5",
+                "text": "readingTemp",
+                "order": 1,
+                "createdAt": "2026-01-04T04:00:06.100Z",
+                "updatedAt": "2026-01-04T04:00:06.735Z"
+              }
+            ]
+          },
+          "targetNode": {
+            "nodeId": "b0da208d-4c9b-4094-ad1c-fde1d2a507b6",
+            "nodeName": "Temperature Sensor",
+            "phenomena": []
+          },
+          "displayMode": "detailed"
+        },
+        "label": "Greenhouse Controller Machine！{readingTemp}",
+        "lineStyle": {
+          "lineColor": "#000",
+          "lineType": "solid"
+        }
+      },
+      "labels": [
+        {
+          "attrs": {
+            "label": {
+              "text": "Greenhouse Controller Machine！{readingTemp}",
+              "fontSize": 14,
+              "fill": "#000000",
+              "fontFamily": "Arial, sans-serif"
+            }
+          },
+          "position": {
+            "distance": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "120a9d4a-f7e2-46b8-b09d-498582e10a8b",
+      "zIndex": 0,
+      "source": {
+        "cell": "8f84ba6c-7fc1-468e-92bd-81f3b818d0d2",
+        "port": "port-top"
+      },
+      "target": {
+        "cell": "116cce33-2c9b-4c7a-8dd8-b9c202cd90ab",
+        "port": "port-left"
+      },
+      "data": {
+        "lineStyle": {
+          "lineColor": "#000000",
+          "lineType": "dashed"
+        }
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "2d2ec76b-7cbc-4d75-8457-6d60597e8523",
+      "zIndex": 0,
+      "source": {
+        "cell": "116cce33-2c9b-4c7a-8dd8-b9c202cd90ab",
+        "port": "port-right"
+      },
+      "target": {
+        "cell": "b15a5bdb-27a4-4bc5-bb59-1f8c554af1d6",
+        "port": "port-top"
+      },
+      "data": {
+        "lineStyle": {
+          "lineColor": "#000000",
+          "lineType": "dashed"
+        }
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "a92eb557-fb1f-45bb-8ef3-827757aaeccf",
+      "zIndex": 0,
+      "source": {
+        "cell": "b0da208d-4c9b-4094-ad1c-fde1d2a507b6",
+        "port": "port-bottom"
+      },
+      "target": {
+        "cell": "62acd4a0-0a25-4ab3-bc4b-084ee69083f7",
+        "port": "port-left"
+      },
+      "data": {
+        "lineStyle": {
+          "lineColor": "#000000",
+          "lineType": "dashed"
+        }
+      }
+    },
+    {
+      "shape": "edge",
+      "attrs": {
+        "line": {
+          "stroke": "#000",
+          "strokeDasharray": "5 5"
+        }
+      },
+      "id": "1b734b14-1a41-4937-ada2-a0d15f5dd344",
+      "zIndex": 0,
+      "source": {
+        "cell": "62acd4a0-0a25-4ab3-bc4b-084ee69083f7",
+        "port": "port-right"
+      },
+      "target": {
+        "cell": "31681a3f-24ca-4488-b652-5fa55184a008",
+        "port": "port-bottom"
+      },
+      "data": {
+        "lineStyle": {
+          "lineColor": "#000000",
+          "lineType": "dashed"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "createdAt": "2026-01-04T04:03:49.697Z",
+    "updatedAt": "2026-01-04T04:03:49.697Z"
+  }
+}
