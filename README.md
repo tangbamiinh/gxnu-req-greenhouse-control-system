@@ -1,5 +1,7 @@
 # IoT Smart Greenhouse Control System
 
+![CI Status](https://github.com/tangbamiinh/gxnu-req-greenhouse-control-system/actions/workflows/ci.yml/badge.svg)
+
 This repository contains the complete Requirements Engineering project for the **Smart Greenhouse Controller**, developed using the **Problem Frames Approach (PFA)** and the **PF2UML** methodology.
 
 ## 📖 Project Overview
