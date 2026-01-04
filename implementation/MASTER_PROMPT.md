@@ -36,6 +36,8 @@ Use the following detailed prompt to regenerate this system from a Problem Frame
 6. `frontend/src/App.jsx` (Tailwind Dashboard)
 7. `frontend/package.json` & `tailwind.config.js`
 8. `docker-compose.yml` (Backend + MongoDB)
+9. `backend/tests/` (Pytest unit/integration tests)
+10. `frontend/src/__tests__/` (Vitest component tests)
 
 **Input JSON Model**: `PD2UFL_Model.json`
 

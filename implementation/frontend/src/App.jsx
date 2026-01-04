@@ -34,8 +34,9 @@ const Dashboard = () => {
   );
 
   if (!data) return (
-    <div className="min-h-screen bg-slate-950 flex items-center justify-center">
+    <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center gap-4">
       <div className="w-12 h-12 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin"></div>
+      <p className="text-emerald-500/50 font-mono text-xs uppercase tracking-widest animate-pulse">Loading Systems...</p>
     </div>
   );
 

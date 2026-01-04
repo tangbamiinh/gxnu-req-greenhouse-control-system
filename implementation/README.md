@@ -34,8 +34,24 @@ The frontend is run locally to allow for rapid UI development.
     ```bash
     cd frontend
     npm install
-    npm run dev
+    npm start
     ```
+
+## 🧪 Running Tests
+
+### Backend Tests (Pytest)
+Ensure you have the dependencies installed, then run:
+```bash
+cd backend
+pytest tests/
+```
+
+### Frontend Tests (Vitest)
+Run the React component tests:
+```bash
+cd frontend
+npm test
+```
 
 ## 🛠️ Project Structure
 ```text
