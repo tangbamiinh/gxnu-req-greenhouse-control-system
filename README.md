@@ -30,7 +30,7 @@ To demonstrate the system's requirement-enforcement capabilities, the following 
 
 | **Normal State** | **Low Moisture (Pump Active)** | **High Temperature (Fan Active)** |
 | :---: | :---: | :---: |
-| ![Normal](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_Normal.png) | ![Low Moisture](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_LowMoisture.png) | ![High Temperature](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_HighTemperature.png) |
+| ![Normal](docs/AppScreenshot_Normal.png) | ![Low Moisture](docs/AppScreenshot_LowMoisture.png) | ![High Temperature](docs/AppScreenshot_HighTemperature.png) |
 | *System stable within parameters.* | *Moisture < 40%: Pump triggers.* | *Temp > 33°C: Fan triggers.* |
 
 ## 🛠️ Methodology & Tools

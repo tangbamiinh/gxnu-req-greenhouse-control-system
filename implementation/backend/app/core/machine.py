@@ -22,13 +22,6 @@ class GreenhouseMachine:
         """Simulate one software cycle (The Machine Logic)."""
         self._simulate_environmental_drift()
         
-        # --- Safety: Pump Timer (Max 900s) ---
-        if self.pump_on and self.pump_start_time:
-            elapsed = (datetime.now() - self.pump_start_time).total_seconds()
-            if elapsed > 900:
-                self.pump_on = False
-                self.pump_start_time = None
-                logger.warning(f"[{datetime.now().strftime('%H:%M:%S')}] SAFETY TRIGGER: Pump overheat protection active")
 
         # --- REQ-1: Moisture Maintenance ---
         if self.moisture < 40 and not self.pump_on:
@@ -47,6 +40,14 @@ class GreenhouseMachine:
         elif self.temperature < 25 and self.fan_on:
             self.fan_on = False
             logger.info(f"[{datetime.now().strftime('%H:%M:%S')}] MACHINE COMMAND: turnOffFan")
+
+        # --- Safety: Pump Timer (Max 900s) ---
+        if self.pump_on and self.pump_start_time:
+            elapsed = (datetime.now() - self.pump_start_time).total_seconds()
+            if elapsed > 900:
+                self.pump_on = False
+                self.pump_start_time = None
+                logger.warning(f"[{datetime.now().strftime('%H:%M:%S')}] SAFETY TRIGGER: Pump overheat protection active")
 
         record = {
             "timestamp": datetime.now().isoformat(),

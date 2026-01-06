@@ -15,7 +15,7 @@ The system is built with a modular N-tier architecture:
 
 | **Normal** | **Pump Active** | **Fan Active** |
 | :---: | :---: | :---: |
-| ![Normal](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_Normal.png) | ![Low Moisture](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_LowMoisture.png) | ![High Temp](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_HighTemperature.png) |
+| ![Normal](../docs/AppScreenshot_Normal.png) | ![Low Moisture](../docs/AppScreenshot_LowMoisture.png) | ![High Temp](../docs/AppScreenshot_HighTemperature.png) |
 | *Stable operation.* | *Moisture < 40%.* | *Temp > 33°C.* |
 
 ## 🚀 Getting Started
