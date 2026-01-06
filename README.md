@@ -24,9 +24,14 @@ REQ/
 └── report_draft.md         # Final 5-Page Project Report
 ```
 
-## 🎥 Dashboard Preview
+## 🖼️ Operational Scenarios
 
-![Smart Greenhouse Dashboard](/Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot.png)
+To demonstrate the system's requirement-enforcement capabilities, the following operational states are documented:
+
+| **Normal State** | **Low Moisture (Pump Active)** | **High Temperature (Fan Active)** |
+| :---: | :---: | :---: |
+| ![Normal](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_Normal.png) | ![Low Moisture](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_LowMoisture.png) | ![High Temperature](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_HighTemperature.png) |
+| *System stable within parameters.* | *Moisture < 40%: Pump triggers.* | *Temp > 33°C: Fan triggers.* |
 
 ## 🛠️ Methodology & Tools
 
@@ -60,6 +65,7 @@ npm start
 ## 📝 Requirements Highlights
 *   **Moisture Maintenance**: Automatically triggers watering when soil moisture drops below 40%.
 *   **Temperature Regulation**: Activates ventilation fans when air temperature exceeds 30°C.
+*   **Safety Timer**: Automatically shuts off the pump if it operates for more than 15 minutes (900s) to prevent overheating.
 *   **Data Persistence**: All environmental transitions are logged in MongoDB for historical auditing.
 
 ---

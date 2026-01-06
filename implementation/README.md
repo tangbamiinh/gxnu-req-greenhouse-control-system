@@ -11,6 +11,13 @@ The system is built with a modular N-tier architecture:
 - **Database (Persistence)**: MongoDB. Stores historical sensor readings and machine command logs.
 - **Orchestration**: Docker Compose for the backend and database.
 
+## 🖼️ System State Demonstrations
+
+| **Normal** | **Pump Active** | **Fan Active** |
+| :---: | :---: | :---: |
+| ![Normal](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_Normal.png) | ![Low Moisture](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_LowMoisture.png) | ![High Temp](file:///Users/minh/Documents/Dev/GXNU/REQ/docs/AppScreenshot_HighTemperature.png) |
+| *Stable operation.* | *Moisture < 40%.* | *Temp > 33°C.* |
+
 ## 🚀 Getting Started
 
 ### 1. Infrastructure (Backend & DB)
@@ -76,6 +83,7 @@ implementation/
 The **Greenhouse Controller Machine** enforces two primary requirements:
 1. **Moisture Maintenance**: If Soil Moisture < 40%, trigger `turnOnPump`.
 2. **Temperature Regulation**: If Air Temperature > 30°C, trigger `turnOnFan`.
+3. **Safety Timer**: If Pump runs > 15 mins (900s), trigger `turnOffPump` to prevent overheating.
 
 ---
 *Developed for GXNU Requirements Engineering 2026*

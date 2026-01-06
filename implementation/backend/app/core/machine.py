@@ -1,7 +1,8 @@
 import random
 import logging
 from datetime import datetime
-from typing import List, Dict, Any
+from typing import Dict, Any
+from app.core.config import settings
 from app.core.database import get_history_collection
 
 logger = logging.getLogger("GreenhouseController")
@@ -9,23 +10,34 @@ logger = logging.getLogger("GreenhouseController")
 class GreenhouseMachine:
     def __init__(self):
         # Environmental State (Given Domains)
-        self.moisture = 45.0
-        self.temperature = 26.0
+        self.moisture = settings.INITIAL_MOISTURE
+        self.temperature = settings.INITIAL_TEMPERATURE
         
         # Actuator State (Design Domains)
         self.pump_on = False
         self.fan_on = False
+        self.pump_start_time: datetime | None = None
 
     async def step(self) -> Dict[str, Any]:
         """Simulate one software cycle (The Machine Logic)."""
         self._simulate_environmental_drift()
         
+        # --- Safety: Pump Timer (Max 900s) ---
+        if self.pump_on and self.pump_start_time:
+            elapsed = (datetime.now() - self.pump_start_time).total_seconds()
+            if elapsed > 900:
+                self.pump_on = False
+                self.pump_start_time = None
+                logger.warning(f"[{datetime.now().strftime('%H:%M:%S')}] SAFETY TRIGGER: Pump overheat protection active")
+
         # --- REQ-1: Moisture Maintenance ---
         if self.moisture < 40 and not self.pump_on:
             self.pump_on = True
+            self.pump_start_time = datetime.now()
             logger.info(f"[{datetime.now().strftime('%H:%M:%S')}] MACHINE COMMAND: turnOnPump")
         elif self.moisture > 62 and self.pump_on:
             self.pump_on = False
+            self.pump_start_time = None
             logger.info(f"[{datetime.now().strftime('%H:%M:%S')}] MACHINE COMMAND: turnOffPump")
 
         # --- REQ-2: Temperature Regulation ---

@@ -25,6 +25,7 @@ Use the following detailed prompt to regenerate this system from a Problem Frame
 - **Requirements Logic**:
     - REQ1: Moisture < 40% -> Activate Pump.
     - REQ2: Temp > 30°C -> Activate Fan.
+    - REQ-Safety: Pulse Pump off if running > 15 mins.
 - **Persistence**: Store every "step" of the machine execution into a MongoDB collection named `history`.
 
 ### 3. File List to Generate
